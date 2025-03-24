@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms & Rates | Emerald Hotels</title>
+    <style>
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-image: url('roomsandrates.jpg'); /* Corrected line */
+            background-size: cover; /* Optional: makes the background cover the entire page */
+            background-position: center; /* Optional: centers the background image */
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #FFD700;
+        }
+
+        /* Page Title */
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            margin-top: 100px;
+            color: rgb(250, 57, 23);
+        }
+
+        /* Room Section */
+        .rooms-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .room-box {
+            width: 300px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .room-box h3 {
+            font-size: 22px;
+            color: rgb(250, 57, 23);
+        }
+
+        .rate {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+            color: rgb(250, 57, 23);
+        }
+
+        /* Room Images */
+        .room-box img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        /* Book Now Button */
+        .book-btn {
+            display: inline-block;
+            text-decoration: none;
+            background: rgb(250, 57, 23);
+            color: black;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .book-btn:hover {
+            background: white;
+            color: black;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="terms.html">Terms & Conditions</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+
+    <!-- Page Title -->
+    <h1>Rooms & Rates</h1>
+
+    <!-- Rooms Section -->
+    <div class="rooms-container">
+        <div class="room-box">
+            <img src="roomrate1.jpg" alt="Standard Room">
+            <h3>Standard Room</h3>
+            <p>A cozy room with a queen-size bed, perfect for solo travelers or couples.</p>
+            <p class="rate">Rs 1000 per night</p>
+            <a href="payment-standard.html" class="book-btn">Book Now</a>
+        </div>
+
+        <div class="room-box">
+            <img src="roomrate2.jpg" alt="Deluxe Room">
+            <h3>Deluxe Room</h3>
+            <p>Enjoy a spacious room with a king-size bed, a beautiful view, and modern amenities.</p>
+            <p class="rate">Rs 1500 per night</p>
+            <a href="payment-deluxe.html" class="book-btn">Book Now</a>
+        </div>
+
+        <div class="room-box">
+            <img src="roomrate3.jpg" alt="Family Suite">
+            <h3>Family Suite</h3>
+            <p>Ideal for families, this suite includes two bedrooms and a living area.</p>
+            <p class="rate">Rs 2500 per night</p>
+            <a href="payment-family suite.html" class="book-btn">Book Now</a>
+        </div>
+
+        <div class="room-box">
+            <img src="roomrate4.jpg" alt="Exclusive Suite">
+            <h3>Exclusive Suite</h3>
+            <p>Luxurious suite with a separate living area, perfect for business travelers.</p>
+            <p class="rate">Rs 4500 per night</p>
+            <a href="payment-exclusive suite.html" class="book-btn">Book Now</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2025 Emerald Hotels | Luxury & Comfort at Your Service
+    </div>
+
+</body>
+</html>

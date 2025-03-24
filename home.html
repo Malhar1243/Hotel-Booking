@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerald Rooms|Home</title>
+    <style>
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        /* General Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+           background-image: url("home1.jpg");
+	    
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #FFD700;
+        }
+
+        /* Header */
+        h1 {
+            text-align: center;
+            color: rgb(250, 57, 23);
+            font-size: 48px;
+            margin-top: 50px;
+        }
+
+        /* Description Section */
+        .content {
+            text-align: center;
+            width: 50%;
+            margin: 40px auto;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            background:blur;
+        }
+
+        .img{
+            display: flex;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        marquee {
+            font-size:1.5em;
+            color:  white;
+            padding:10px 0;
+            width:100%;
+        }
+
+        /* Facilities & Services */
+        .services {
+            text-align: center;
+            margin: 40px auto;
+            color: black;
+        }
+
+        .services h2 {
+            font-size: 32px;
+            margin-bottom: 25px;
+            color: black;
+        }
+
+        .service-box {
+            display: inline-block;
+            width: 300px;
+            padding: 20px;
+            margin: 15px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+
+        .service-box:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        .service-box h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #FFD700;
+        }
+
+            @media screen and (max-width: 768px) {
+        .img {
+            flex-direction: column; /* Stack images & content */
+        }
+
+        .img img {
+            max-width: 80%;
+            border-radius: 10px;
+        }
+
+        .content {
+            max-width: 90%;
+        }
+    }
+
+    </style>
+</head>
+<body bgimage="home1.jpg">
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="about.html">About Us</a>
+	<a href="menu.html">Menu</a>
+        <a href="roomsandrates.html">Rooms & Rates</a>
+        <a href="terms.html">Terms & Conditions</a>
+        <a href="feedback.html">Feedback</a>
+
+    </div>
+
+    <!-- Main Content -->
+    <h1>Welcome to Emerald Hotel</h1>
+<div class="img">
+        <img src="home1.jpg" width="20%" height="20%">
+    <div class="content">
+        <h4>Experience luxury like never before at Hotel rooms, located in the heart of Pune. Our world-class service, elegant rooms, and premium amenities ensure an unforgettable stay.</h4>
+        <h4>Relax in our spa, dine at our gourmet restaurant, or enjoy city views from our rooftop bar. Whether for business or leisure, your comfort is our priority.</h4>
+    </div>
+        <img src="home2.jpg" width="20%" height="20%">
+</div>
+
+<marquee style=" display:inline-block; background: rgba(0, 0, 0, 0.6); ">  Welcome To Emerald Hotel And Experience The Luxurious Comfort</marquee>
+    <!-- Services Section -->
+    <div class="services">
+        <h2>Our Facilities & Services</h2>
+
+        <div class="service-box">
+            <h3>Wellness & Recreation</h3>
+            <p>Spa, fitness center, pool, and yoga classes for relaxation.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Dining & Entertainment</h3>
+            <p>On-site restaurant, bar, and live events for a delightful experience.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Business & Meetings</h3>
+            <p>Modern conference rooms and business center facilities.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Luxury Amenities</h3>
+            <p>Private beach access, rooftop bar, and exclusive services.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2025 Emerald Hotels | Designed for a luxurious experience
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('menu.jpg'); /* Add your background image URL here */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the image */
+            text-align: center;
+}
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #FFD700;
+        }
+        }
+
+        /* Red Header */
+        h1 {
+            color: red;
+            background-color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+
+        /* Content Box */
+        .success-container {
+            background: linear-gradient(to bottom, rgba(211, 211, 211, 0.6), rgba(255, 255, 255, 0.6)); /* Gray to white gradient with 60% opacity */
+            width: 40%;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            border: 2px solid black; /* Changed border color to black */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+
+        /* Home Button */
+        .home-button {
+            display: inline-block;
+            background-color: red;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .home-button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <div class="navbar">
+	<a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="roomsandrates.html">Rooms & Rates</a>
+        <a href="terms.html">Terms & Conditions</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+
+
+    <h1>MENU</h1>
+
+    <div class="success-container">
+        <h2>Standard Room</h2>
+        <p><strong>Breakfast: </strong>Paratha with yogurt and pickle</p>
+        <p><strong>Lunch: </strong>Chicken Biryani with raita</p>
+        <p><strong>Dinner: </strong>Paneer Butter Masala with naan</p>
+        <hr>
+        <h2>Delux Room</h2>
+        <p><strong>Breakfast: </strong>Idli with sambar and coconut chutney</p>
+        <p><strong>Lunch: </strong>Vegetable Pulao with papad</p>
+        <p><strong>Dinner: </strong>Butter Chicken with garlic naan</p>
+        <hr>
+        <h2>Family Suite</h2>
+        <p><strong>Breakfast: </strong>Poha with peanuts and lemon</p>
+        <p><strong>Lunch: </strong>Dal Tadka with steamed rice</p>
+        <p><strong>Dinner: </strong>Chole Bhature</p>
+        <hr>
+        <h2>Exclusive Suite</h2>
+        <p><strong>Breakfast: </strong>Masala Dosa with sambar and chutney</p>
+        <p><strong>Lunch: </strong>Fish Curry with steamed rice</p>
+        <p><strong>Dinner: </strong>Lamb Rogan Josh with naan</p>
+        <hr>
+    </div>
+
+</body>
+</html>
